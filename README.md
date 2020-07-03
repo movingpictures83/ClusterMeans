@@ -2,7 +2,8 @@
 # Language: R
 # Input: TXT (keyword, value pairs)
 # Output: CSV (trimmed file)
-# Tested with: PluMA 1.0, R 3.2.5
+# Tested with: PluMA 1.1, R 4.0.0
+# Dependency: rlist_0.4.6.1
 
 PluMA plugin to take a set of clusters and compute the mean edge weight between them, taking
 into account nodes in each pair of clusters.
